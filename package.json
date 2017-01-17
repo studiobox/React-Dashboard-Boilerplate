@@ -1,0 +1,56 @@
+{
+    "name": "react-dashboard-boilerplate",
+    "version": "1.0.0",
+    "description": "A basic project to use for any type of dashboard project. This basic boilerplate is wraped with React and Redux and basic HTML5/CSS3 configuration.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/studiobox/React-Dashboard-Boilerplate.git"
+    },
+    "keywords": [
+        "React",
+        "Redux",
+        "Boilerplate",
+        "HTML",
+        "CSS",
+        "Dashboard"
+    ],
+    "author": "StudioBox",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/studiobox/React-Dashboard-Boilerplate/issues"
+    },
+    "homepage": "https://github.com/studiobox/React-Dashboard-Boilerplate#readme",
+    "dependencies": {
+        "babel-core": "^6.10.4",
+        "babel-loader": "^6.2.4",
+        "babel-polyfill": "^6.9.1",
+        "babel-register": "^6.9.0",
+        "babel-preset-es2015": "^6.9.0",
+        "babel-preset-react": "^6.11.1",
+        "babel-preset-react-hmre": "^1.1.1",
+        "express": "^4.13.4",
+        "expect": "^1.20.1",
+        "cross-env": "^1.0.8",
+        "react": "^15.1.0",
+        "react-dom": "^15.1.0",
+        "react-redux": "^4.4.5",
+        "react-addons-test-utils": "^15.1.0",
+        "redux": "^3.5.2",
+        "redux-logger": "^2.6.1",
+        "redux-thunk": "^2.1.0",
+        "redux-promise": "^0.5.3",
+        "webpack": "^1.13.1",
+        "webpack-dev-middleware": "^1.6.1",
+        "webpack-hot-middleware": "^2.11.0",
+        "webpack-dev-server": "^1.14.1"
+    },
+    "devDependencies": {
+        "babel-plugin-react-transform": "^2.0.2",
+        "babel-preset-state-0": "^6.5.0",
+        "react-transform-hmr": "^1.0.4"
+    }
+}
