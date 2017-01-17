@@ -4,7 +4,9 @@
     "description": "A basic project to use for any type of dashboard project. This basic boilerplate is wraped with React and Redux and basic HTML5/CSS3 configuration.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack",
+        "start": "webpack-dev-server"
     },
     "repository": {
         "type": "git",
@@ -50,7 +52,7 @@
     },
     "devDependencies": {
         "babel-plugin-react-transform": "^2.0.2",
-        "babel-preset-state-0": "^6.5.0",
+        "babel-preset-stage-0": "^6.5.0",
         "react-transform-hmr": "^1.0.4"
     }
 }
