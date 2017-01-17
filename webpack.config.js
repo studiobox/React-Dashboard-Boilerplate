@@ -1,7 +1,7 @@
-let path = require('path')
-let webpack = require('webpack')
+var path = require('path');
+var webpack = require('webpack');
 
-module.export = {
+module.exports = {
     devServer: {
         inline: true,
         contentBase: './src',
@@ -25,4 +25,4 @@ module.export = {
     plugins: [
         new webpack.optimize.OccurrenceOrderPlugin()
     ]
-}
+};
